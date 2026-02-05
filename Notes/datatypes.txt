@@ -1,0 +1,57 @@
+
+Data types 
+
+    1- Primitive datatypes- number, string, boolean
+    2- reference datatype-
+        Array
+        Tuples
+        Enums
+        Any , Unknown, Null , Undefined, Never
+
+--------------------------------------------------------- 
+
+we can copy premitive datatype: directly
+we can not copy reference datatype: directly
+
+
+
+#### now let's start basic types:
+
+    1- number
+        let a = 30;
+
+    2- string
+         let b = "hello" 
+     
+    3- boolean
+        true & false      
+
+
+    4- array- 
+     let arr = []  // blank array.
+
+    5- Tuples - defines fix size of array with spacific data for spacific location.
+
+    let arr: [string, number] = ["vipin", 22]
+
+
+    6- Enums
+
+    enum UserRoles = {
+        ADMIN = "admin",
+        GUEST = "guest"
+        SUPER_ADMIN = "super_admin"
+    }
+
+    or like
+
+    enum StatusCodes = {
+        OK = "status code 200"
+        NOT_FOUND = "not found status code 404"
+    }
+
+    to access: StatusCodes.Ok (with . operator);
+
+
+
+
