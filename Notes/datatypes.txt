@@ -1,4 +1,3 @@
-
 Data types 
 
     1- Primitive datatypes- number, string, boolean
@@ -51,6 +50,44 @@ we can not copy reference datatype: directly
     }
 
     to access: StatusCodes.Ok (with . operator);
+
+
+    7- Any  - when we declare a variable without initialization : (means we didn't mention their type)
+    
+        let a ; ## here type of a is any (set by default) ## 
+
+        now how to define type: 
+         let a: number
+
+    *** imp -- make sure your variable type should not be - any - *** means mention the data type or initialize the variable
+
+
+
+    8- Unknown
+
+    let a: unkonwn;
+    a = 30;
+    a = "vipin"
+
+    ****rule: but before using this variable we have to check it's type 
+
+    if(typeof a === "string"){
+        a.toUpperCase();
+    }
+
+
+    9- Void: where our function is not returning something
+     means it's returntype is void
+
+     function hello(): void{
+        console.log("hello typescript")
+     }
+
+
+    10- Null
+    11- Undefined
+    
+    12- Never 
 
 
 
